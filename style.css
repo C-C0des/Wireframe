@@ -1,5 +1,7 @@
 /* In the image for the assignment, the margins for the body do not look centered,hence why I've
-made the margin for the left side greater than that of the right hand to mimic the image given.  */
+made the margin for the left side greater than that of the right hand to mimic the image given. 
+otherwise I would have set the margin for the body to auto. Also the margin under the navigation
+looked a little bigger than that of the header which is why I set it 10px smaller.  */
 
 body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -10,6 +12,11 @@ body{
     width: 960px;
     margin-left:100px;
     margin-right:50px;
+}
+
+html{
+    padding:0;
+    margin:0;
 }
 
 
